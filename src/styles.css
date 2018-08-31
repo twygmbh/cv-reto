@@ -1,1 +1,165 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('http://fast.fonts.net/t/1.css?apiType=css&projectid=9d6b6b80-6b2b-4b16-9621-a2ba23294f07');
+@font-face {
+  font-family: 'Corporate S W01 Light';
+  src: url('assets/fonts/a4e15547-0e81-415e-9386-22cefb0e0c38.eot?#iefix');
+  src: url('assets/fonts/a4e15547-0e81-415e-9386-22cefb0e0c38.eot?#iefix')
+      format('eot'),
+    url('assets/fonts/23edaca0-5dd1-40fc-aeb2-db31ee5239d4.woff2')
+      format('woff2'),
+    url('assets/fonts/1c7e8feb-d184-494e-8619-777ea84813c4.woff') format('woff'),
+    url('assets/fonts/6e9cfebc-c1d5-4d9e-8604-3f410db68ced.ttf')
+      format('truetype'),
+    url('assets/fonts/f6e549b5-4b86-47d0-b1b1-fa574149cc23.svg#f6e549b5-4b86-47d0-b1b1-fa574149cc23')
+      format('svg');
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background: #00000f;
+  font-family: 'Corporate S W01 Light', Helvetica, Arial, sans-serif;
+  font-size: 1.4rem;
+  color: white;
+}
+
+a {
+  color: #017a8e;
+}
+
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+.twy-logo {
+  width: 100px;
+}
