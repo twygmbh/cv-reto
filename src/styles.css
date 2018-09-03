@@ -147,17 +147,41 @@ table {
 body {
   background: #00000f;
   font-family: 'Corporate S W01 Light', Helvetica, Arial, sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: white;
+  line-height: 1.2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: bold;
 }
 
 a {
   color: #017a8e;
+  font-weight: 700;
+}
+
+a:hover {
+  color: white;
 }
 
 ol {
   margin: 0;
   padding: 0;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
 }
 
 .twy-logo {
