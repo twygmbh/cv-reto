@@ -180,7 +180,6 @@ blockquote {
   quotes: "\201C""\201D""\2018""\2019";
 }
 blockquote:before {
-  color: #ccc;
   content: open-quote;
   font-size: 4em;
   line-height: 0.1em;
@@ -189,4 +188,10 @@ blockquote:before {
 }
 blockquote p {
   display: inline;
+}
+
+@media print {
+  body {
+    color: black;
+  }
 }
