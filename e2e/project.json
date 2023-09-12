@@ -1,0 +1,28 @@
+{
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "name": "cv-rryter-e2e",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@angular-devkit/build-angular:protractor",
+      "options": {
+        "protractorConfig": "e2e/protractor.conf.js",
+        "devServerTarget": "cv-rryter:serve"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "cv-rryter:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@angular-devkit/build-angular:tslint",
+      "options": {
+        "tsConfig": "e2e/tsconfig.e2e.json",
+        "exclude": [
+          "**/node_modules/**"
+        ]
+      }
+    }
+  }
+}
