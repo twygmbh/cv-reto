@@ -26,6 +26,7 @@ header {
 
 .position {
   width: 300px;
+  min-width: 300px;
   padding: 10px;
   text-align: right;
   h2 {
@@ -39,7 +40,6 @@ header {
 }
 
 .position-description {
-  max-width: 850px;
   > ul > li {
     background-color: rgba(255, 255, 255, 0.1);
     padding: 40px;
@@ -84,14 +84,15 @@ header {
   display: flex;
   background-color: rgba(255, 255, 255, 0.1);
   padding: 10px;
-  max-width: 800px;
-  width: 100%;
+
+  width: calc(100% - 300px);
   margin-left: 20px;
   margin-bottom: 20px;
 }
 .headshot {
   display: block;
   width: 300px;
+  min-width: 300px;
   overflow: hidden;
   padding: 0 10px;
   text-align: right;
@@ -103,8 +104,7 @@ header {
 }
 
 .position-description {
-  max-width: 850px;
-  width: 100%;
+  width: calc(100% - 300px);
   color: rgba(255, 255, 255, 0.5);
 
   h4 {
