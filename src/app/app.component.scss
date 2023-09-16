@@ -40,6 +40,11 @@ header {
 }
 
 .position-description {
+  > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
   > ul > li {
     background-color: rgba(255, 255, 255, 0.1);
     padding: 40px;
@@ -91,10 +96,8 @@ header {
 }
 .headshot {
   display: block;
-  width: 300px;
-  min-width: 300px;
   overflow: hidden;
-  padding: 0 10px;
+  padding: 20px 0;
   text-align: right;
   margin-bottom: 50px;
 

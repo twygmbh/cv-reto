@@ -1,0 +1,24 @@
+<div class="infos">
+  <img
+    src="../assets/{{ details.image }}"
+    class="position__logo"
+    style="background: none"
+  />
+  <span>{{ details.start }} - {{ details.end }}</span>
+</div>
+<div>
+  <h2>
+    {{ details.client }}<span>{{ details.title }}</span>
+  </h2>
+  <ul class="skills">
+    <li *ngFor="let description of details.descriptions">
+      {{ description }}
+    </li>
+  </ul>
+  <h4>Tech-Stack:</h4>
+  <ul class="skills">
+    <li *ngFor="let skill of details.skills">
+      {{ skill }}
+    </li>
+  </ul>
+</div>
