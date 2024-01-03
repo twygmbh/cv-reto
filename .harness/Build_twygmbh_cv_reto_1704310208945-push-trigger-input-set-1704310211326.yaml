@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_twygmbh_cv_reto_1704310208945-push-trigger-input-set
+  identifier: Build_twygmbh_cv_reto_1704310208945pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_twygmbh_cv_reto_1704310208945
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
