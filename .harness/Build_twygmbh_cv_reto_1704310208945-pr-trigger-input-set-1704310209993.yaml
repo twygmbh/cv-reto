@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_twygmbh_cv_reto_1704310208945-pr-trigger-input-set
+  identifier: Build_twygmbh_cv_reto_1704310208945prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_twygmbh_cv_reto_1704310208945
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
