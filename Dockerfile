@@ -12,10 +12,9 @@ ENV NX_DAEMON=false
 
 # Generate the build of the application
 RUN npm run build
-COPY . .
 
 # Stage 2: Serve the app with Nginx
-FROM nginx:alpine as production
+FROM nginx:alpine AS production
 
 
 RUN rm /etc/nginx/conf.d/default.conf
