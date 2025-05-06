@@ -1,5 +1,5 @@
 # Stage 1: Build the Angular app in Node.js
-FROM node:20.9.0-buster as build-step
+FROM node:slim AS build-step
 WORKDIR /usr/local/app
 
 # Add the source code to app
@@ -15,7 +15,7 @@ RUN npm run build
 COPY . .
 
 # Stage 2: Serve the app with Nginx
-FROM nginx:alpine
+FROM nginx:alpine as production
 
 
 RUN rm /etc/nginx/conf.d/default.conf
